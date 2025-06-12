@@ -1,0 +1,247 @@
+.App {
+  text-align: center;
+}
+
+/*.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}*/
+
+/*@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}*/
+
+.App-header {
+  /*background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);*/
+  color: white;
+}
+
+/*.App-link {
+  color: #61dafb;
+}*/
+
+/*@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
+
+.body {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 60%;
+  grid-template-rows: auto;
+  /*vertical-align: center;*/
+  background-color: #D6E0EF;
+  display: grid;
+  padding: 50px;
+  width: 100%;
+  height: 100%;
+}
+
+.halfpart {
+  display: flex;
+  height: 500px;
+  /*width: 60%;*/
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /*grid-template-columns: 50% 50%;
+  grid-template-rows: auto;*/
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.center {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0px;
+  border-radius: 30px;
+  color: #fff;
+  background-color: #545CC5;
+}
+
+.color {
+  font-size: 16px;
+}
+
+.text-color {
+  color: #fff,
+}
+
+.circle {
+  border-radius: 100%;
+  width: 65%;
+  height: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  column-gap: -50px;
+  align-items: center;
+  /*background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255, 1) 90%)
+  justify-content: center;*/
+  background-color: #473E90;
+  background: linear-gradient(to top,
+        rgba(71, 62, 144, 0) 0%,
+        rgba(71, 62, 144, 1) 100%
+    );
+}
+
+.continue {
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: #334056;
+  color: #fff;
+  height: 10%;
+  width: 200px;
+  margin-top: -20px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.secondpart {
+  display: flex;
+  /*grid-template-columns: auto;
+  grid-template-rows: 20% 60% 20%;*/
+  flex-direction: column;    	
+  height: 100%;
+  width: 50%;
+  gap: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+.wrap {
+  text-align: center;
+  white-space: 'pre-wrap';
+  overflow-wrap: 'break-word';
+  inline-size: 230px;
+  padding: 20px;
+}
+
+.big {
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: -20px;
+}
+
+/*.small {
+  margin: 0px -20px;
+}*/
+
+.great {
+  margin-bottom: -20px;
+}
+
+.each {
+  width: 100%;
+  height: 25%;
+  background-color: #A4D2DE;
+ }
+
+.types {
+  height: 60%;
+  background-color: #fff; 
+  width: 80%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.summary {
+  margin-left: -200px;
+  color: #334056;
+}
+
+.firstcolor {
+  width: 100%;
+  gap: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #F5ECEB;
+  border-Radius: 20px;
+}
+
+.score {
+  display: flex;
+  flex-direction: row;
+}
+
+.secondcolor {
+  width: 100%;
+  background-color: #FFE9C1;
+  gap: 51%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-Radius: 20px;
+  flex-direction: row;
+}
+
+.thirdcolor {
+  width: 100%;
+  gap: 55%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-Radius: 20px;
+  background-color: #CDEECC;
+}
+
+.fourthcolor {
+  width: 100%;
+  gap: 56%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-Radius: 20px;
+  background-color: #DBDFFC;
+}
+
+.firsttext {
+  color: #DB7E75;
+}
+
+.secondtext {
+  color: #E5AD43;
+}
+
+.thirdtext {
+  color: #6EEB6B;
+}
+
+.fourthext {
+  color: #424EA1;
+}
+
+.total {
+  color: #C0C2C6
+}
