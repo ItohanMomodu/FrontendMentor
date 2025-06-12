@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/FrontendMentor/static/css/main.54259147.css",
+    "main.js": "/FrontendMentor/static/js/main.1d77ec44.js",
+    "static/js/453.0316c25a.chunk.js": "/FrontendMentor/static/js/453.0316c25a.chunk.js",
+    "static/media/logo.svg": "/FrontendMentor/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/FrontendMentor/index.html",
+    "main.54259147.css.map": "/FrontendMentor/static/css/main.54259147.css.map",
+    "main.1d77ec44.js.map": "/FrontendMentor/static/js/main.1d77ec44.js.map",
+    "453.0316c25a.chunk.js.map": "/FrontendMentor/static/js/453.0316c25a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54259147.css",
+    "static/js/main.1d77ec44.js"
+  ]
+}
