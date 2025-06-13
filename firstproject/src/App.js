@@ -31,6 +31,7 @@ function App() {
 	  <h2 className="summary">Summary</h2>
 	  <div className="types">
 	    <div className="firstcolor">
+	      <img src="https://img.icons8.com/DB7E75/parakeet-line/48/lightning-bolt.png" alt="reactions" className="logo" />
               <p className="firsttext">Reaction</p>
               <div className="score">
 	        <p>80</p>
@@ -38,6 +39,7 @@ function App() {
 	      </div>
 	    </div>
 	    <div className="secondcolor">
+	      <img src="https://img.icons8.com/ios/E5AD43/48/clock--v1.png" alt="clock--v1" className="logo" />
               <p className="secondtext">Memory</p>
               <div className="score">
 	        <p>80</p>
@@ -45,6 +47,7 @@ function App() {
 	      </div>
             </div>
 	    <div className="thirdcolor">
+	      <img src="https://img.icons8.com/6EEB6B/material-outlined/48/filled-topic.png" alt="filled-topic" className="logo" />
               <p className="color" style={{color: "#51494B"}}>Verbal</p>
               <div className="score">
 	        <p>80 </p>
@@ -52,6 +55,7 @@ function App() {
 	      </div>
             </div>
 	    <div className="fourthcolor">
+	      <img src="https://img.icons8.com/424EA1/ios/48/visible--v1.png" alt="visible--v1" className="logo"/>
               <p className="color" style={{color: "#494B51"}}>Visual</p>
               <div className="score">
 	        <p>80</p>
